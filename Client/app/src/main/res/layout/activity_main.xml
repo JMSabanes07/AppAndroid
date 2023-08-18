@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textValue"
+        android:id="@+id/Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
@@ -28,7 +28,24 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textValue"
+        app:layout_constraintTop_toBottomOf="@+id/Text"
         tools:text="Randomize" />
+
+    <Button
+        android:id="@+id/changePage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#851F41"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Change Page"
+        android:textColorLink="#FFEB3B"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/randomize"
+        tools:text="Change Page" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
