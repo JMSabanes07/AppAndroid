@@ -13,8 +13,8 @@
 
     <script src="https://cdn.jsdelivr.net/gh/pocketbase/js-sdk@master/dist/pocketbase.umd.js"></script>
     <script type="text/javascript">
-      const pb = new PocketBase('http://localhost:6060')
-      const redirectUrl = 'http://localhost:6060/redirect.html'
+      const pb = new PocketBase('http://camionapp.jmsabanes.com')
+      const redirectUrl = 'http://camionapp.jmsabanes.com/redirect.html'
 
       async function loadLinks() {
         const authMethods = await pb.collection('users').listAuthMethods()
